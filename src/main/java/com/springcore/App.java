@@ -14,6 +14,7 @@ public class App
 	public static void main( String[] args )
 	{
 		System.out.println( "Hello World!" );
+		System.out.println("Hello World again");
 
 		ApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring/config.xml");
 		Student student =  (Student) context.getBean("student1");
