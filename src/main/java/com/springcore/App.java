@@ -18,6 +18,7 @@ public class App
 		System.out.println("Hello World again and again");
 		System.out.println("Hello World again and again and again");
 		System.out.println("Hello World ");
+		System.out.println("Hello World into two ");
 
 		ApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring/config.xml");
 		Student student =  (Student) context.getBean("student1");
